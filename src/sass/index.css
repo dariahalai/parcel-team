@@ -109,4 +109,65 @@ feedback {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-of-link-dark-theme);
-}/*# sourceMappingURL=index.css.map */
+}
+.section {
+  width: 360px;
+  background-color: var(--main-bgr-color);
+  padding: 48px 20px;
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.feedback__box {
+  background-color: burlywood;
+}
+.feedback__item {
+  padding-bottom: 48px;
+}
+.feedback__text {
+  outline: 2px solid blue;
+
+.experience {
+  background-color: var(--main-bgr-color);
+}
+.experience__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0.7;
+  text-transform: uppercase;
+  color: var(--primary-p-color);
+}
+.experience__subtitile {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.19;
+  color: var(--title-color);
+}
+.experience__number {
+  font-weight: 400;
+  font-size: 117px;
+  line-height: 0.83;
+  color: var(--primary-p-color);
+}
+.experience__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.7;
+  color: var(--color-of-link-dark-theme);
+}
+.experience__social--google {
+  color: var(--green-accent);
+}
+.experience__social--facebook {
+  color: var(--blue-accent);
+}
+.experience__social--dribbble {
+  color: var(--pink-accent);
+}
+
+feedback {
+  display: flex;
+
+}
+
