@@ -179,7 +179,7 @@ feedback {
   font-family: "Sen";
   font-weight: 700;
   font-size: 32px;
-  line-height: 1.19px;
+  line-height: 1.19;
   align-items: center;
   color: #FFFFFF;
 }
@@ -191,6 +191,13 @@ feedback {
   line-height: 1.5;
   color: var(--color-of-link-dark-theme);
 }
+
+.contact__button {
+  display: block;
+  padding: 24px 73.5px;
+  background-color: var(--btn-color);
+}
+
 .section {
   width: 360px;
   background-color: var(--main-bgr-color);
@@ -402,3 +409,4 @@ feedback {
 feedback {
   display: flex;
 }
+
