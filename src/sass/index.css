@@ -1,1 +1,118 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: "Sen";
+  src: local("Sen"), url("../fonts/Sen-Regular.woff2") format("woff2"), url("../fonts/Sen-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sen";
+  src: local("Sen"), url("../fonts/Sen-Bold.woff2") format("woff2"), url("../fonts/Sen-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --main-bgr-color:#000;
+  --secondary-bgr-color:#FFF3E4;
+  --title-color:#fff;
+  --primary-p-color:#8491A0;
+  --secondary-p-color:#5B6876;
+  --color-of-link-dark-theme:#fff;
+  --color-of-link-light-theme:#181823;
+  --input-color:#181823;
+  --footer-bgr-color:#181823;
+  --active-color:#5221E6;
+  --btn-color:#5221E6;
+  --green-accent:#3CC74E;
+  --blue-accent:#609BFF;
+  --pink-accent:#E95D90;
+}
+
+body {
+  font-family: "Sen", serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.title {
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 120px 72px;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.project {
+  font-family: Sen;
+  font-style: normal;
+  background-color: var(--main-bgr-color);
+  padding: 64px 20px;
+}
+@media screen and (max-width: 768px) {
+  .project {
+    min-width: 360px;
+  }
+}
+.project__title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #8491A0;
+}
+.project__text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 80px;
+  color: var(--color-of-link-dark-theme);
+}
+.project__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.project__item {
+  background-color: var(--footer-bgr-color);
+}
+.project__box {
+  padding: 40px 32px;
+}
+.project__img {
+  margin: 0 auto;
+}
+.project__sub-title {
+  font-size: 24px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+  color: var(--title-color);
+}
+.project__item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--primary-p-color);
+}
+
+feedback {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
