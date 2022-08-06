@@ -57,7 +57,10 @@ img {
 
     &__item {
         background-color: var(--footer-bgr-color);
+    }
 
+    &__item:not(:first-child) {
+        margin-top: 48px;
     }
 
     &__box {
