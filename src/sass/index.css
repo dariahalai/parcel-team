@@ -1,1 +1,65 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: "Sen";
+  src: local("Sen"), url("../fonts/Sen-Regular.woff2") format("woff2"), url("../fonts/Sen-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sen";
+  src: local("Sen"), url("../fonts/Sen-Bold.woff2") format("woff2"), url("../fonts/Sen-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --main-bgr-color:#000;
+  --secondary-bgr-color:#FFF3E4;
+  --title-color:#fff;
+  --primary-p-color:#8491A0;
+  --secondary-p-color:#5B6876;
+  --color-of-link-dark-theme:#fff;
+  --color-of-link-light-theme:#181823;
+  --input-color:#181823;
+  --footer-bgr-color:#181823;
+  --active-color:#5221E6;
+  --btn-color:#5221E6;
+  --green-accent:#3CC74E;
+  --blue-accent:#609BFF;
+  --pink-accent:#E95D90;
+}
+
+body {
+  font-family: "Sen", serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.title {
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 120px 72px;
+}
+
+.section {
+  width: 360px;
+  background-color: var(--main-bgr-color);
+  padding: 48px 20px;
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.feedback__box {
+  background-color: burlywood;
+}
+.feedback__item {
+  padding-bottom: 48px;
+}
+.feedback__text {
+  outline: 2px solid blue;
+}/*# sourceMappingURL=index.css.map */
