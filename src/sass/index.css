@@ -1,1 +1,112 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: "Sen";
+  src: local("Sen"), url("../fonts/Sen-Regular.woff2") format("woff2"), url("../fonts/Sen-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sen";
+  src: local("Sen"), url("../fonts/Sen-Bold.woff2") format("woff2"), url("../fonts/Sen-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --main-bgr-color:#000;
+  --secondary-bgr-color:#FFF3E4;
+  --title-color:#fff;
+  --primary-p-color:#8491A0;
+  --secondary-p-color:#5B6876;
+  --color-of-link-dark-theme:#fff;
+  --color-of-link-light-theme:#181823;
+  --input-color:#181823;
+  --footer-bgr-color:#181823;
+  --active-color:#5221E6;
+  --btn-color:#5221E6;
+  --green-accent:#3CC74E;
+  --blue-accent:#609BFF;
+  --pink-accent:#E95D90;
+}
+
+body {
+  font-family: "Sen", serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.title {
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 120px 72px;
+}
+
+.dribbble__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.dribbble__text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  /* Light Grey */
+  color: #8491A0;
+}
+
+.dribbble__link {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+feedback {
+  display: flex;
+}
+
+.contact-form__section {
+  background-color: var(--main-bgr-color);
+}
+
+.form__text {
+  font-family: "Sen";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--primary-p-color);
+}
+
+.form__slogan {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.19px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.contact__label {
+  font-family: "Sen";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-of-link-dark-theme);
+}/*# sourceMappingURL=index.css.map */
