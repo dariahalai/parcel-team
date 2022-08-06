@@ -345,6 +345,9 @@ img {
 .project__item {
   background-color: var(--footer-bgr-color);
 }
+.project__item:not(:first-child) {
+  margin-top: 48px;
+}
 .project__box {
   padding: 40px 32px;
 }
