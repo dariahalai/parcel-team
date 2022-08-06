@@ -45,6 +45,25 @@ body {
   margin: 120px 72px;
 }
 
+
+.section {
+  width: 360px;
+  background-color: var(--main-bgr-color);
+  padding: 48px 20px;
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.feedback__box {
+  background-color: burlywood;
+}
+.feedback__item {
+  padding-bottom: 48px;
+}
+.feedback__text {
+  outline: 2px solid blue;
+
 .experience {
   background-color: var(--main-bgr-color);
 }
@@ -85,4 +104,5 @@ body {
 
 feedback {
   display: flex;
-}/*# sourceMappingURL=index.css.map */
+
+}
