@@ -1,0 +1,32 @@
+.hero {
+  background-color: #000000;
+}
+.hero__title {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(38 / 32);
+
+  color: #ffffff;
+}
+
+.hero__title--accent {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(38 / 32);
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero__text {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+
+  color: #ffffff;
+}
