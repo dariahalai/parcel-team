@@ -55,6 +55,89 @@ body {
   }
 }
 
+.dribbble__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.dribbble__text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  /* Light Grey */
+  color: #8491A0;
+}
+
+.dribbble__link {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+feedback {
+  display: flex;
+}
+
+.contact-form__section {
+  background-color: var(--main-bgr-color);
+}
+
+.form__text {
+  font-family: "Sen";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--primary-p-color);
+}
+
+.form__slogan {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.19px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.contact__label {
+  font-family: "Sen";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-of-link-dark-theme);
+}
+.section {
+  width: 360px;
+  background-color: var(--main-bgr-color);
+  padding: 48px 20px;
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.feedback__box {
+  background-color: burlywood;
+}
+.feedback__item {
+  padding-bottom: 48px;
+}
+.feedback__text {
+  outline: 2px solid blue;
+
 .experience {
   background-color: var(--main-bgr-color);
 }
@@ -246,4 +329,6 @@ body {
 
 feedback {
   display: flex;
-}/*# sourceMappingURL=index.css.map */
+
+}
+

@@ -1,3 +1,29 @@
-feedback {
-    display: flex;
+.section {
+    width: 360px;
+
+
+    background-color: var(--main-bgr-color);
+    padding: 48px 20px;
+
+    font-family: Sen;
+    font-size: 18px;
+    line-height: 150%;
+
+}
+
+.feedback {
+
+&__box {
+    background-color: burlywood;
+
+}
+
+&__item {
+    padding-bottom: 48px;
+}
+
+&__text {
+    outline: 2px solid blue;
+}
+
 }
