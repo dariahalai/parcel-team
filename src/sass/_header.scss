@@ -1,7 +1,41 @@
 .header {
-  background-color: #000000;
+  width: 100%;
+  background-color: var(--main-bgr-color);
+}
+
+.nav {
+  // display: flex;
+  align-items: center;
+  padding: 20 24;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .nav__list {
   display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+.nav__link {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  padding: 24 32;
+
+  color: var(--title-color);
+}
+
+.icon-burger {
+  background-color: transparent;
+}
+
+.menu-open-btn .mob-menu {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
