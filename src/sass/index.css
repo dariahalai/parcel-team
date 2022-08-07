@@ -541,6 +541,7 @@ a {
 }
 
 .form__text {
+  margin-bottom: 48px;
   font-family: "Sen";
   font-weight: 400;
   font-size: 18px;
@@ -550,6 +551,7 @@ a {
 }
 
 .form__slogan {
+  margin-bottom: 16px;
   font-family: "Sen";
   font-weight: 700;
   font-size: 32px;
@@ -559,6 +561,7 @@ a {
 }
 
 .contact__label {
+  margin-bottom: 8px;
   font-family: "Sen";
   font-weight: 400;
   font-size: 16px;
@@ -568,10 +571,34 @@ a {
 
 .contact__button {
   display: block;
-  padding: 24px 73.5px;
+  padding: 24px 73px;
   background-color: var(--btn-color);
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
+.contact__input {
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  display: block;
+  min-height: 50px;
+  background-color: var(--input-color);
+}
+
+@media screen and (min-width: 360px) {
+  .contact__input {
+    width: 320px;
+  }
+  .contact__button {
+    width: 320px;
+  }
+}
 .footer__container {
   background-color: var(--footer-bgr-color);
 }/*# sourceMappingURL=index.css.map */
