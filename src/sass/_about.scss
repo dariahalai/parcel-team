@@ -25,17 +25,14 @@
         margin-bottom:51px;
     }
     &__img{
-        @media screen and (min-width:360px){
+        @media screen and (max-width:767px){
             width:360px;
-            height:450px;
         }
          @media screen and (min-width:768px){
             width:384px;
-            height:600px;
         }
          @media screen and (min-width:1440px){
             width:720px;
-            height:600px;
         }
 
     }
