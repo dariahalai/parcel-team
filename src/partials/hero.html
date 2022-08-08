@@ -1,7 +1,16 @@
 <section class="hero section">
-  <div class="hero__image">
-    <img src="./images/hero-d.jpg" alt="my photo" width="360" />
-  </div>
+  <picture>
+    <source srcset="./images/hero-d.jpg 1x, 
+                    ./images/hero-d@2x.jpg 2x" media="(min-width: 1440px)">
+
+    <source srcset="./images/hero-t.jpg 1x,
+                    ./images/hero-t@2x.jpg 2x" media="(min-width: 768px)">
+
+    <source srcset="./images/hero-m.jpg 1x,
+                    ./images/hero-m@2x.jpg 2x" media="(max-width: 767px)">
+
+    <img class="hero-img" src="./images/hero-d.jpg" alt="Robin.W">
+  </picture>
   <div class="hero__descr container">
     <h1 class="hero__title">
       I’m Robin Williams. A Product Designer

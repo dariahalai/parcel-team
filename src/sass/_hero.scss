@@ -1,3 +1,31 @@
+.hero {
+  padding-top: 0;
+
+  @media screen and (min-width: 768px) {
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+  }
+}
+
+.hero-img {
+  @media screen and (max-width: 767px) {
+    margin: 0 auto;
+  }
+}
+
+.hero__descr {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    left: 320px;
+    width: 445px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 738px;
+    left: 662px;
+  }
+}
 
 .hero__title {
   font-family: 'Sen';
@@ -8,7 +36,18 @@
   margin-top: 48px;
   margin-bottom: 16px;
 
-  color: #ffffff;
+  color: var(--title-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 56px;
+    line-height: calc(67 / 56);
+    margin-bottom: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 78px;
+    line-height: calc(94 / 78);
+  }
 }
 
 .hero__title--accent {
@@ -19,6 +58,16 @@
   line-height: calc(38 / 32);
 
   color: rgba(255, 255, 255, 0.5);
+
+  @media screen and (min-width: 768px) {
+    font-size: 56px;
+    line-height: calc(67 / 56);
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 78px;
+    line-height: calc(94 / 78);
+  }
 }
 
 .hero__text {
@@ -27,7 +76,16 @@
   font-weight: 400;
   font-size: 18px;
   line-height: calc(27 / 18);
-  padding-bottom: 48px;
 
-  color: #ffffff;
+  color: var(--title-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: calc(27 / 18);
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+    line-height: calc(27 / 18);
+  }
 }
