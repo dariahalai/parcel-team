@@ -397,25 +397,19 @@ img {
 }
 
 .insta {
-  background: #FBE4FF;
+  background-color: #FBE4FF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 640px) {
   .insta {
     display: flex;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 359px) {
-  .insta__mob {
-    max-width: 359px;
-  }
-}
-@media screen and (min-width: 640px) and (max-width: 1439px) {
-  .insta__mob {
-    width: 100%;
-  }
+.insta__mob {
+  width: 100%;
+  padding: 15px;
 }
 
 .insta__tittle {
@@ -451,36 +445,86 @@ img {
   display: block;
 }
 
+.dribbble {
+  background-color: var(--main-bgr-color);
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+@media screen and (min-width: 360px) {
+  .dribbble {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dribbble {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .dribbble {
+    margin: 120px 182px;
+    max-width: 1440px;
+  }
+}
+
 .dribbble__title {
   font-weight: 700;
   font-size: 55px;
   line-height: 66px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: var(--title-color);
 }
 
 .dribbble__text {
-  font-family: "Sen";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   display: flex;
   align-items: center;
-  /* Light Grey */
-  color: #8491A0;
+  color: var(--primary-p-color);
 }
 
 .dribbble__link {
-  font-family: "Sen";
-  font-style: normal;
+  display: inline-block;
+  margin-top: 40px;
+  border-bottom: 1px solid var(--primary-p-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: var(--title-color);
+}
+
+.dribbble__img {
+  justify-content: center;
+  margin: auto;
+}
+@media screen and (min-width: 360px) {
+  .dribbble__img {
+    border-radius: 0px 0px 8px 8px;
+    width: 320px;
+    height: 480px;
+    margin-top: 64px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dribbble__img {
+    width: 688px;
+    height: 480px;
+    margin-top: 120px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .dribbble__img {
+    width: 1076px;
+    height: 640px;
+  }
 }
 
 img {
